@@ -1,4 +1,3 @@
-
 package software.ulpgc.katas;
 
 import software.ulpgc.katas.io.EmployeeLoader;
