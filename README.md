@@ -131,7 +131,7 @@ La versión final evaluable se encuentra en `main`.
 
 ## Verificación
 
-La suite incluye 12 pruebas automatizadas.
+La suite incluye 13 pruebas automatizadas.
 
 Se comprueba:
 
@@ -146,6 +146,7 @@ Se comprueba:
 - Sueldo no numérico.
 - Independencia del orden de las filas.
 - Conservación de caracteres UTF-8.
+- Rechazo de empleados con sueldo mensual negativo
 
 Las pruebas se ejecutan con:
 
