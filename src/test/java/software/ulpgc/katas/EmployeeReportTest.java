@@ -6,6 +6,10 @@ import software.ulpgc.katas.io.*;
 import software.ulpgc.katas.service.DepartmentCounter;
 import software.ulpgc.katas.service.EmployeeReport;
 
+import software.ulpgc.katas.domain.Department;
+import software.ulpgc.katas.domain.Employee;
+
+
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
@@ -217,5 +221,10 @@ class EmployeeReportTest {
 
         return new ByteArrayInputStream(
                 content.getBytes(StandardCharsets.UTF_8));
+    }
+
+    @Test
+    void rejectsNegativeMonthlyIncome() {
+        assertThrows(IllegalArgumentException.class, () -> new Employee("Ana", new Department("Sales"), -1));
     }
 }
