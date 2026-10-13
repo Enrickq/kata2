@@ -160,6 +160,19 @@ otro SummaryWriter.
 
 La lógica de DepartmentCounter no necesita modificaciones.
 
+
 ## Vídeo explicativo
 
-Pendiente de incorporar el enlace al vídeo de máximo 7 minutos.
+[Ver vídeo explicativo de la Kata 2 en YouTube](https://youtu.be/QZezq5mRbKw)
+
+En el vídeo se explican:
+
+- El objetivo de la kata y el dataset TSV de 25 empleados.
+- La lectura mediante InputStream y la escritura mediante OutputStream.
+- El diseño del dominio con objetos inmutables.
+- La aplicación de SRP, SoC, interfaces y composición.
+- La ejecución con diferentes orígenes y destinos.
+- La verificación mediante 13 pruebas automatizadas con JUnit.
+- La gestión de errores y la independencia del orden de las filas.
+- Las tres repeticiones deliberadas y el historial Git.
+
